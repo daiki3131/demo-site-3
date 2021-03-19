@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shiro</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;900&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="hamburger.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header_top js_header">
+      <div class="js_header_color">
+        <div class="container">
+          <div class="header_left">
+            <h1 class="header_logo"><a class="js_logo_color" href="/">shiro</a></h1>
+          </div>
+          <div class="header_right">
+            <div class="hamburger_menu">
+              <div class="hamburger_btn">
+                <!-- ハンバーガーボタン -->
+                <span class="js_bar_color bar bar_top"></span>
+                <span class="js_bar_color bar bar_middle"></span>
+                <span class="js_bar_color bar bar_bottom"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav_wrapper">
+        <!-- ナビゲーションメニュー -->
+        <nav class="nav_wrap">
+          <ul class="nav_list">
+            <!-- (ドロップダウン) -->
+            <li><a href="#concept">Concept</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#florist">Florist</a></li>
+            <li><a href="#shopInformation">Shop information</a></li>
+            <li><a href="#contactUs">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="header_company_wrap">
+      <h2 class="header_company_name">shiro</h2>
+      <p class="header_company_name_catch">White flower shop</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <article class="article">
+      <section id="concept" class="concept js_color_change">
+        <div class="container">
+          <div class="txt_content">
+            <h3>Concept</h3>
+            <p class="txt">
+              私たちShiroは、白いお花だけを取り扱うフラワーショップです。<br>
+              色とりどりの花束も素敵だけれど、洗練された「白」の美しさを感じてほしい。<br>
+              「白」に対する愛から生まれた静寂な時間が流れる店へ、ぜひお越しください。
+            </p>
+          </div>
+          <div class="img_content">
+            <div class="img_wrap"><img src="images/concept.png" alt="白い花の画像"></div>
+          </div>
+        </div>
+        <div class="bg_content"></div>
+      </section>
+      <section id="work" class="work">
+        <div class="container">
+          <div class="txt_content">
+            <h3>Work</h3>
+            <p class="txt">
+              オーダーメイドでのブーケ・アレンジメントのデザインのほか、<br>
+              ウェディングやイベントの装花なども行なっています。<br>
+              一人一人にあったご提案をさせていただきます。
+            </p>
+          </div>
+          <div class="item_container row">
+            <div class="left col-md-6">
+              <div class="item_content">
+                <div class="img_wrap"><img src="images/work_gift.png" alt="ギフト画像"></div>
+                <div class="txt_wrap">
+                  <h4>Gift</h4>
+                  <p>花束をお送りしたいお相手、伝えたいお気持ちに合わせたプレゼント用花束のアレンジメントをさせていただきます。花言葉などの豆知識もお伝えします。</p>
+                </div>
+              </div>
+              <div class="item_content">
+                <div class="img_wrap"><img src="images/work_wedding.png" alt="ウェディング画像"></div>
+                <div class="txt_wrap">
+                  <h4>Wedding</h4>
+                  <p>ウエディングドレスに合わせたブーケや式場の雰囲気に合う装花をご提案。お打ち合わせの流れや回数、費用などにつきましてはお問い合わせください。</p>
+                </div>
+              </div>
+            </div>
+            <div class="right col-md-6">
+              <div class="item_content">
+                <div class="img_wrap"><img src="images/work_decoretion.png" alt="デコレーション画像"></div>
+                <div class="txt_wrap">
+                  <h4>Decoration</h4>
+                  <p>お写真を彩るお花を一輪から販売。一定期間のご契約で定期的にご自宅へ配送させていただくことも可能です。</p>
+                </div>
+              </div>
+              <div class="item_content margin_none">
+                <div class="img_wrap"><img src="images/work_for_yourself.png" alt="ライフスタイル画像"></div>
+                <div class="txt_wrap">
+                  <h4>For yourself</h4>
+                  <p>お部屋の雰囲気やライフスタイルをお聞きしてご自宅用の花束をご提案し、少しでも長く咲かせるコツもお教えします。花束に合った花瓶をご提案することも可能です。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="florist" class="florist">
+        <div class="txt_content">
+          <h3>Florist</h3>
+          <p class="txt">
+            Shiro専属のフローリストたちをご紹介。<br>
+            得意の分野であなたのオーダーを最大限に叶えます。
+          </p>
+        </div>
+        <div class="container">
+          <div class="item_container row">
+            <div class="left col-md-4">
+              <div class="item_content">
+                <div class="img_wrap"><img src="images/florist_shiyu.png" alt="shiyuの画像"></div>
+                <div class="txt_wrap">
+                  <h4>Shiyu</h4>
+                  <p>お花茶屋大学フラワーアレンジメント科を卒業後、さまざまな白い花を探すために世界を一周し、Shiroの創業者となる。</p>
+                </div>
+              </div>
+            </div>
+            <div class="center col-md-4">
+              <div class="item_content">
+                <div class="img_wrap"><img src="images/florist_mao.png" alt="maoの画像"></div>
+                <div class="txt_wrap">
+                  <h4>Mao</h4>
+                  <p>花の魅力に惹かれ、空間デザインの世界からフローリストの道を歩む。主に結婚式やイベントで使用するお花のディレクション担当。</p>
+                </div>
+              </div>
+            </div>
+            <div class="right col-md-4">
+              <div class="item_content">
+                <div class="img_wrap"><img src="images/florist_omichan.png" alt="omichanの画像"></div>
+                <div class="txt_wrap">
+                  <h4>Omichan</h4>
+                  <p>フローリスト兼ガーデナーという特殊な経歴をもつ。豊富な知識と技術でお客様のオーダーを叶える。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="shopInformation" class="shopInformation">
+        <div class="container">
+          <div class="txt_content">
+            <h3>Shop information</h3>
+            <p class="txt">
+              Shiroの店舗情報をご紹介します。
+            </p>
+          </div>
+          <div class="second_container">
+            <div class="row">
+              <div class="left col-md-6">
+                <div class="img_wrap"><img src="images/shop_information.png" alt="白い花の画像"></div>
+              </div>
+              <div class="right col-md-6">
+                <div class="txt_wrap">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <th>住所</th>
+                        <td>〒810-0001<br>福岡県福岡市中央区天神0-0-0</td>
+                      </tr>
+                      <tr>
+                        <th>電話番号</th>
+                        <td>0120-000-000</td>
+                      </tr>
+                      <tr>
+                        <th>営業時間</th>
+                        <td>11:00-20:30<br>（定休日：水曜日）</td>
+                      </tr>
+                      <tr class="margin_none">
+                        <th>アクセス</th>
+                        <td>天神駅12a出口から徒歩6分<br>東京駅8b出口から徒歩12分</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contactUs" class="contactUs">
+        <div class="container">
+          <div class="txt_content">
+            <h3>Contact us</h3>
+            <p class="txt">
+              イベントや結婚式でご利用する装花のご相談や、<br>
+              フラワーアレンジメントのご予約などはこちらからお問い合わせください。
+            </p>
+          </div>
+          <div class="btn_content">
+            <a class="btn_wrap" href="/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+              </svg>
+              <span>お問い合わせ</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <small class="copyright">Copyright © Shiro All Rights Reserved.</small>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
